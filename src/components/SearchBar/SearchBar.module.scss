@@ -1,0 +1,20 @@
+.container {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 400;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 70px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.iconButton {
+    padding: 12px 20px;
+}
+
+.text {
+    margin-left: 8px;
+    flex: 1;
+    color: #3d5278;
+}
