@@ -1,4 +1,5 @@
-import { Typography } from '@mui/material';
+import { Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 import styles from './Logo.module.scss';
 
 type LogoProps = {
@@ -7,9 +8,11 @@ type LogoProps = {
 
 const Logo = ({ fontSize }: LogoProps) => {
     return (
-        <Typography sx={{ fontSize }} className={styles.logo}>
-            MORENT
-        </Typography>
+        <Link to={'/'} className={styles.container}>
+            <Box sx={{ fontSize }} className={styles.logo}>
+                MORENT
+            </Box>
+        </Link>
     );
 };
 
